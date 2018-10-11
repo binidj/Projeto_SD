@@ -104,7 +104,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 784 0 960 16)
+	(rect 776 192 952 208)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "F[3..0]" (rect 90 0 123 12)(font "Arial" ))
 	(pt 0 8)
@@ -120,7 +120,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 784 64 960 80)
+	(rect 776 320 952 336)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "status" (rect 90 0 120 12)(font "Arial" ))
 	(pt 0 8)
@@ -136,7 +136,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 784 136 960 152)
+	(rect 776 264 952 280)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "overflow" (rect 90 0 132 12)(font "Arial" ))
 	(pt 0 8)
@@ -393,12 +393,35 @@ applicable agreement for further details.
 	(pt 192 144)
 )
 (connector
+	(pt 336 128)
+	(pt 472 128)
+	(bus)
+)
+(connector
+	(pt 336 424)
+	(pt 472 424)
+	(bus)
+)
+(connector
+	(pt 344 560)
+	(pt 472 560)
+	(bus)
+)
+(connector
+	(pt 336 144)
+	(pt 456 144)
+)
+(connector
+	(pt 32 776)
+	(pt 544 776)
+)
+(connector
 	(pt 32 680)
 	(pt 56 680)
 )
 (connector
 	(pt 56 680)
-	(pt 584 680)
+	(pt 544 680)
 )
 (connector
 	(pt 32 728)
@@ -406,41 +429,7 @@ applicable agreement for further details.
 )
 (connector
 	(pt 80 728)
-	(pt 584 728)
-)
-(connector
-	(pt 32 776)
-	(pt 592 776)
-)
-(connector
-	(pt 552 128)
-	(pt 552 616)
-	(bus)
-)
-(connector
-	(pt 336 128)
-	(pt 552 128)
-	(bus)
-)
-(connector
-	(pt 512 424)
-	(pt 512 528)
-	(bus)
-)
-(connector
-	(pt 336 424)
-	(pt 512 424)
-	(bus)
-)
-(connector
-	(pt 480 560)
-	(pt 480 648)
-	(bus)
-)
-(connector
-	(pt 344 560)
-	(pt 480 560)
-	(bus)
+	(pt 544 728)
 )
 (junction (pt -120 424))
 (junction (pt -120 296))
